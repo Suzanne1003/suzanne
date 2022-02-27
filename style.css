@@ -1,0 +1,142 @@
+/*Font*/
+@font-face {
+    font-family: "dorsa";
+    src: url(./Dorsa-Regular.ttf);
+}
+body{
+    background-color: #8B4C1C;
+}
+h1, h3, .navbar{
+    font-family: "dorsa";
+}
+h1{
+    position: absolute;
+    font-size: 280px;
+    letter-spacing: 65px;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: white;
+}
+
+h3, .navbar{
+    letter-spacing: 12px;
+}
+.contenant{
+    position: relative;
+}
+.mannequin{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -4%;
+    width: auto;
+    height: 4000%;
+}
+.navbar{
+    position: absolute;
+    margin-top: 46%;
+    margin-left: 33%;
+    color: white;
+    font-size: 24px;
+}
+.portfolio{
+    margin-left: 45%;
+    text-transform: uppercase;
+    color: white;
+}
+.content{
+    position: relative;
+    margin-top: 60%;
+    width: 100%;
+    height: 100%;
+    
+}
+.a-propos{
+    position: absolute;
+    background-color: #A56A2A;
+    width: 50%;
+    height: 800px;
+
+
+}
+.text{
+    position: absolute;
+    margin-left: 50%;
+    width: 50%;
+    height: 800px;
+    background-color: #F2EADF;
+}
+#sous-titre1{
+    font-family: 'dorsa';
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    letter-spacing: 20px;   
+}
+#competences{
+    font-family: 'dorsa';
+    font-size: 30px;
+    margin-left: 80px;
+    letter-spacing: 5px;  
+    padding-top: 8px; 
+}
+#sous-titre2{
+    font-family: 'dorsa';
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    letter-spacing: 20px;   
+}
+#formation{
+    font-family: 'dorsa';
+    font-size: 30px;
+    margin-left: 80px;
+    letter-spacing: 5px;   
+}
+.content2{
+    position: relative;
+    margin-top: 115%;
+}
+.projets{
+    position: absolute;
+    margin-top: 0%;
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    margin-top: 0%;  
+    overflow: scroll;
+}
+#cerveau{
+    position: relative;
+    width: 50%;
+    height: 680px;
+    margin-left: 50%;
+    overflow: scroll;
+}
+#planete{
+    position: relative;
+    width: 52%;
+    height: 680px;
+    margin-left: 49%;
+    margin-top: -2%;
+    overflow: scroll;
+}
+.projets{
+    background-color: #F2EADF;
+    margin-top: 0%;
+    width: 50%;
+    height: 800px;
+}
+#carre {
+    position: relative;
+    margin-top: -2%;
+    margin-left: 50%;
+    width: 50%;
+    height: 680px;
+    background: black;
+    overflow: scroll;
+}
