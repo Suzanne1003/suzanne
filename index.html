@@ -49,7 +49,7 @@
         <br>
         - 2016: Diplôme National du Brevet mention Très bien
     </p>
-        <h2 id="sous-titre4">experiences</h2>
+        <h2 id="sous-titre3">experiences</h2>
         <p id="experiences">
         - <strong>2021 - Décembre 2021</strong>: Voyage au Brésil<br>
         <br>
@@ -63,9 +63,9 @@
         <br>
         - <strong>2019</strong>: Distribution alimentaire au sein de la Croix-Rouge <br>
         <br>
-        - <strong>2016</strong>: Stage d’observation à EDF département de la gestion du nucléaire<br> &nbsp;&nbsp; au parlement européen <br>
+        - <strong>2016</strong>: Stage d’observation à EDF département de la gestion du nucléaire au parlement européen <br>
         <br>
-        - <strong>2015</strong>: Stage d’observation à la Comédie-Française
+        - <strong>2015</strong>: Stage d’observation à la <a href="#contact"> Comédie-Française</a>
     </p>
 </div>
 </div>
@@ -75,10 +75,37 @@
     </div>
     <div class="image">
         <img id="cerveau" src="./cerveau.png" alt="cerveau">
+        <div class="hexagone">
+            <div class="hexagonemain">
+            </div>
+            <span class="hexagonecontent"><button id="togg1">+</button></span></div>
+            <div id="d1">
+                <p id="note-intention">J'ai voulu au travers de ce travail mettre en valeur les dérives parfois effrayantes des nouvelles technologies. C’est dans ce but que j’ai pensé à une intelligence artificielle en capacité de remplacer le cerveau humain, appelée « E-Brain ».</p>
+                <img id="wireframe" src="./wireframe.jpg" alt="wireframe">
+            </div>
         <img id="planete" src="./planete.png" alt="planete">
         <div id="carre"></div>
     </div>
 </div>
+<div class="content3">
+    <div class="contact">
+        <h2 id="contact">contact</h2>
+    </div>
+    <div class="information">
+        <div id="carre1"></div>
+    </div>
+</div>
+<script>
+    let togg1 = document.getElementById("togg1");
+let d1 = document.getElementById("d1");
+togg1.addEventListener("click", () => {
+  if(getComputedStyle(d1).display != "none"){
+    d1.style.display = "none";
+  } else {
+    d1.style.display = "block";
+  }
+})
 
+</script>
 </body>
 </html>
