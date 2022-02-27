@@ -10,6 +10,17 @@
        .text{height:100pt;overflow:auto}
 
         </style>
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $('.barres').click(function(){
+                    $('.barres').toggleClass('active');
+                })
+            })
+        </script>
 </head>
 <body>
     <div class="contenant">
@@ -77,12 +88,19 @@
         <img id="cerveau" src="./cerveau.png" alt="cerveau">
         <div class="hexagone">
             <div class="hexagonemain">
-            </div>
-            <span class="hexagonecontent"><button id="togg1">+</button></span></div>
+        </div>
+            <span class="hexagonecontent">
+                <div class="barres">
+<div class="plus">
+    <span id="togg1">+</span>
+</div>
+</div> 
+            </span>
+        </div>
             <div id="d1">
                 <p id="note-intention">J'ai voulu au travers de ce travail mettre en valeur les dérives parfois effrayantes des nouvelles technologies. C’est dans ce but que j’ai pensé à une intelligence artificielle en capacité de remplacer le cerveau humain, appelée « E-Brain ».</p>
                 <img id="wireframe" src="./wireframe.jpg" alt="wireframe">
-            </div>
+            </div>       
         <img id="planete" src="./planete.png" alt="planete">
         <div id="carre"></div>
     </div>
