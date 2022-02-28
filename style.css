@@ -260,37 +260,7 @@ h3{
     left: 0;
     z-index: 3;
   }
-  #d1{
-      z-index: 1;
-      position: absolute;
-      background-color: #8B4C1C;
-      width: 50%;
-      height: 800px;
-      margin-top: -38%;
-
-  }
-  #note-intention{
-      position: absolute;
-      z-index: 1;
-      font-family: 'montserrat';
-      color: #F2EADF;
-      background-color: #8B4C1C;
-      font-size: 22px;
-      text-align: center;
-      width: 100%;
-      height: 800px;
-      margin-top: -10%;
-      padding-top: 2%;
-  }
-  #wireframe{
-      z-index: 1;
-    position: absolute;
-    background-color: #8B4C1C;
-    text-align: center;
-    margin-top: 2%;
-    width: 100%;
-    height: auto;
-  }
+  
 .barres{
     z-index: 2;
     position: absolute;
@@ -300,8 +270,8 @@ h3{
     width: 50px;
     height: 40px;
     cursor: pointer;
-
 }
+/*Animation croix*/
 .plus{
     width: 50px;
     height: 6px;
@@ -343,14 +313,33 @@ top: -16px;
     top: 0;
     transform: rotate(135deg);
 }
-#togg1{
-    z-index:3;
+.btnPopup{
+    border-color: aqua;
+    padding: 1em 2em;
+    font-size: 14pt;
+    color: black;
+    cursor: pointer;
+}
+.btnPopup:hover{
+    background-color: purple;
+}
+.overlay{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,.5);
     width: 100%;
-    position: absolute;
-    margin-top: -100%;
-    background-color: none;
-    font-size: 80px;
-    color: #8B4C1C;
-    opacity: 0;
+    height: 100%;
+    display: none;
+}
+.popup{
+    margin: 20% auto;
+    width: 110%;
+    background-color: #fff;
+    padding: 1em;
+}
+.btnClose{
+   margin-left: 1100px;
+    cursor: pointer;
 
 }

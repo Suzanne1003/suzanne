@@ -90,21 +90,35 @@
             <div class="hexagonemain">
         </div>
             <span class="hexagonecontent">
+    <!--bouton d'animation menu qui se transforme en croix-->
                 <div class="barres">
 <div class="plus">
-    <span id="togg1">+</span>
+    <span id="togg1"><button id="btnPopup" class="btnPopup">+</button></span>
 </div>
 </div> 
+<!--div contenue à propos-->
+    <!--div contenue society-->
             </span>
         </div>
+        <div id="overlay" class="overlay">
+            <div id="popup" class="popup">
+                <h2>exemple simple de pop up <span id="btnClose" class="btnClose">&times;</span>
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi itaque error id, in consequuntur 
+                    ad hic porro laborum illum odit perspiciatis aperiam cupiditate nihil suscipit sequi deleniti, quos eius!
+                </p>
+            </div>
+        </div>
             <div id="d1">
-                <p id="note-intention">J'ai voulu au travers de ce travail mettre en valeur les dérives parfois effrayantes des nouvelles technologies. C’est dans ce but que j’ai pensé à une intelligence artificielle en capacité de remplacer le cerveau humain, appelée « E-Brain ».</p>
-                <img id="wireframe" src="./wireframe.jpg" alt="wireframe">
-            </div>       
+               
+            </div> 
+<!--div projet planete-->      
         <img id="planete" src="./planete.png" alt="planete">
         <div id="carre"></div>
     </div>
 </div>
+<!--Div contenue contact-->
 <div class="content3">
     <div class="contact">
         <h2 id="contact">contact</h2>
@@ -113,17 +127,6 @@
         <div id="carre1"></div>
     </div>
 </div>
-<script>
-    let togg1 = document.getElementById("togg1");
-let d1 = document.getElementById("d1");
-togg1.addEventListener("click", () => {
-  if(getComputedStyle(d1).display != "none"){
-    d1.style.display = "none";
-  } else {
-    d1.style.display = "block";
-  }
-})
-
-</script>
+<script src="main.js"></script>
 </body>
 </html>
