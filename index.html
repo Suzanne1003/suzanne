@@ -10,17 +10,6 @@
        .text{height:100pt;overflow:auto}
 
         </style>
-        <script
-        src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-        crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function() {
-                $('.barres').click(function(){
-                    $('.barres').toggleClass('active');
-                })
-            })
-        </script>
 </head>
 <body>
     <div class="contenant">
@@ -102,8 +91,13 @@
         </div>
         <div id="overlay" class="overlay">
             <div id="popup" class="popup">
-                <h2>exemple simple de pop up <span id="btnClose" class="btnClose">&times;</span>
-                </h2>
+                <span id="btnClose" class="btnClose">&times;</span>
+                <h2 id="society">Society </h2>
+                <img id="wireframe" src="./wireframe.jpg" alt="wireframe">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi itaque error id, in consequuntur 
+                    ad hic porro laborum illum odit perspiciatis aperiam cupiditate nihil suscipit sequi deleniti, quos eius!
+                </p>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi itaque error id, in consequuntur 
                     ad hic porro laborum illum odit perspiciatis aperiam cupiditate nihil suscipit sequi deleniti, quos eius!
